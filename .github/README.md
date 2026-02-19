@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-route53-recovery-cluster`](https://www.npmjs.com/package/@aws-sdk/client-route53-recovery-cluster/v/3.105.0).
+[`@aws-sdk/client-route53-recovery-cluster`](https://www.npmjs.com/package/@aws-sdk/client-route53-recovery-cluster/v/3.109.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-route53-recovery-cluster@3.105.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-route53-recovery-cluster@3.109.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-nRC9yUm2sdzql9SByb6ESNR/iQRMpXDzZdv2a4QkKm7+xu++Pe3Hz5+I0/vl8J90
+sha384-dk/WkYeMe5oVFfEp6AboaOEIhbZxPZyTc8jmk4IRn6/uvfm8pW5UkRTOpGK8VNQE
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-route53-recovery-cluster": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-route53-recovery-cluster@3.105.0/index.min.mjs"
+            "@aws-sdk/client-route53-recovery-cluster": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-route53-recovery-cluster@3.109.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-route53-recovery-cluster@3.105.0/index.min.mjs": "sha384-nRC9yUm2sdzql9SByb6ESNR/iQRMpXDzZdv2a4QkKm7+xu++Pe3Hz5+I0/vl8J90"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-route53-recovery-cluster@3.109.0/index.min.mjs": "sha384-dk/WkYeMe5oVFfEp6AboaOEIhbZxPZyTc8jmk4IRn6/uvfm8pW5UkRTOpGK8VNQE"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-route53-recovery-cluster": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-route53-recovery-cluster@3.105.0/index.min.mjs"
+                        "@aws-sdk/client-route53-recovery-cluster": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-route53-recovery-cluster@3.109.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-route53-recovery-cluster@3.105.0/index.min.mjs": "sha384-nRC9yUm2sdzql9SByb6ESNR/iQRMpXDzZdv2a4QkKm7+xu++Pe3Hz5+I0/vl8J90"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-route53-recovery-cluster@3.109.0/index.min.mjs": "sha384-dk/WkYeMe5oVFfEp6AboaOEIhbZxPZyTc8jmk4IRn6/uvfm8pW5UkRTOpGK8VNQE"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.105.0`)
+* Always pin to a specific version (`@3.109.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-route53-recovery-cluster/blob/refs/tags/3.105.0/LICENSE
+https://github.com/cloud-sdk-builds/client-route53-recovery-cluster/blob/refs/tags/3.109.0/LICENSE
 ```
 
 ---
